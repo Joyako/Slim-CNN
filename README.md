@@ -7,4 +7,4 @@ SSE Block && Slim Module:
 
 ### Notes  
 In this Paper, it is not clear in the skip connection that the number of channels int the input layer is not equal to the number of channels output after the first use of SSE block.
-Thus, I add a point-wise convolution layer to change the number of channels. 
+Thus, I add a point-wise convolution layer to change the number of channels. If it is my understanding of the error, please point out, Thanks!
